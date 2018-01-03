@@ -4,7 +4,7 @@
   "description": "Repo with developer settings for Mac",
   "main": "index.js",
   "scripts": {
-    "start": "cp .aliases ~ && cp .bash_profile ~ && cp .bashrc ~ && cp .gitconfig ~ && cp .gitignore ~ && cp .gitignore_global ~ && cp .path ~ & cp .stCommitMsg ~ && if [ -f \"./env.sh\" ]; then sh env.sh && echo \"env.sh FOUND - executing bash script\"; fi && if [ ! -f \"env.sh\" ]; then echo \"env.sh NOT FOUND\"; fi",
+    "start": "cp .aliases ~ && cp .bash_profile ~ && cp .bash_prompt ~ && cp .bashrc ~ && cp .gitconfig ~ && cp .gitignore ~ && cp .gitignore_global ~ && cp .path ~ & cp .stCommitMsg ~ && if [ -f \"./env.sh\" ]; then sh env.sh && echo \"env.sh FOUND - executing bash script\"; fi && if [ ! -f \"env.sh\" ]; then echo \"env.sh NOT FOUND\"; fi",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
