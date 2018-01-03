@@ -1,0 +1,20 @@
+{
+  "name": "mac-settings",
+  "version": "1.0.1",
+  "description": "Repo with developer settings for Mac",
+  "main": "index.js",
+  "scripts": {
+    "start": "cp .aliases ~ && cp .bash_profile ~ && cp .bashrc ~ && cp .gitconfig ~ && cp .gitignore ~ && cp .gitignore_global ~ && cp .path ~ & cp .stCommitMsg ~",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bcepuran/mac-settings.git"
+  },
+  "author": "Brian Cepuran",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/bcepuran/mac-settings/issues"
+  },
+  "homepage": "https://github.com/bcepuran/mac-settings#readme"
+}
