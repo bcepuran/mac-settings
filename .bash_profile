@@ -31,8 +31,9 @@ alias o="open ." # Open the current directory in Finder
 alias ut="uptime" # Computer uptime
 alias resource="source ~/.bash_profile"
 alias geth="./bin/geth"
+alias gits="git status --porcelain"
 
-alias subl="/Applications/Sublime\ Text\ 3.app/Contents/SharedSupport/bin/subl"
+alias subl="/Applications/Sublime\ Text\.app/Contents/SharedSupport/bin/subl"
 
 alias mono="/Library/Frameworks/Mono.framework/Versions/Current/bin/mono"
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
