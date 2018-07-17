@@ -35,5 +35,7 @@ alias gits="git status --porcelain"
 
 alias subl="/Applications/Sublime\ Text\.app/Contents/SharedSupport/bin/subl"
 
+alias mongodb="mongod --dbpath ~/dev/_db/"
+
 alias mono="/Library/Frameworks/Mono.framework/Versions/Current/bin/mono"
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*

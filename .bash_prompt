@@ -71,5 +71,10 @@ function parse_git_branch() {
   git branch --no-color 2> /dev/null | sed -e '/^[^*]/d' -e "s/* \(.*\)/\1$(parse_git_dirty)/"
 }
 
+function tab_title {
+  echo -n -e "\033]0;${PWD##*/}\007"
+}
+
+PROMPT_COMMAND="tab_title ; $PROMPT_COMMAND"
 export PS1="\[${BOLD}${MAGENTA}\]\u \[$WHITE\]at \[$ORANGE\]\h \[$WHITE\]in \[$GREEN\]\w\$(git_info)\[$WHITE\]\n\$ \[$RESET\]"
 export PS2="\[$ORANGE\]→ \[$RESET\]"
