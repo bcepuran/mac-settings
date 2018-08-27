@@ -33,6 +33,8 @@ alias resource="source ~/.bash_profile"
 alias geth="./bin/geth"
 alias gits="git status --porcelain"
 
+alias octave="/usr/local/octave/3.8.0/bin/octave-3.8.0 ; exit;"
+
 alias subl="/Applications/Sublime\ Text\.app/Contents/SharedSupport/bin/subl"
 
 alias mongodb="mongod --dbpath ~/dev/_db/"
