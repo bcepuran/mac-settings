@@ -26,7 +26,7 @@ zstyle ':vcs_info:git*' formats "| %{$fg[blue]%}%s %{$reset_color%}%{$fg[cyan]%}
 precmd() {
   vcs_info
   setopt PROMPT_SUBST
-  PS1='%{$fg[magenta]%}%n%{$reset_color%} at %{$fg[blue]%}%m%{$reset_color%} in %{$fg[green]%}%d%{$reset_color%} ${vcs_info_msg_0_}${git_modified}${NEWLINE}% % '
+  PS1='%{$fg[magenta]%}%n%{$reset_color%} at %{$fg[blue]%}%m%{$reset_color%} in %{$fg[green]%}%d%{$reset_color%} ${vcs_info_msg_0_}${git_modified}${NEWLINE}% $ '
 }
 
 
